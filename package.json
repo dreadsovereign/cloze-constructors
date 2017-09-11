@@ -1,0 +1,22 @@
+{
+  "name": "cloze-constructors",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dreadsovereign/cloze-constructors.git"
+  },
+  "author": "Kamran Ahmad",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dreadsovereign/cloze-constructors/issues"
+  },
+  "homepage": "https://github.com/dreadsovereign/cloze-constructors#readme",
+  "dependencies": {
+    "inquirer": "^3.2.3"
+  }
+}

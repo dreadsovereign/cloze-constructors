@@ -1,4 +1,6 @@
-function basicCard (front, back) {
+var fs = require("fs");
+
+function basicFlash (front, back) {
   this.front = front;
   this.back = back;
 
@@ -9,7 +11,12 @@ function basicCard (front, back) {
       back: this.back,
       type: "basic",
     };
+    fs.appendFile("log.txt", JSON.stringify(data) + "|", "utf8", function(error) {
+      if (error) {
+        console.log(error);
+      }
+    })
   }
 }
 
-module.exports = basicCard;
+module.exports = basicFlash;

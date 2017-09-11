@@ -1,0 +1,1 @@
+{"front":"Will the Patriots will the Super Bowl?","back":"Yes","type":"basic"}|{"text":"Patriots will win the Super Bowl this year","cloze":"Patriots","clozeDelete":"_____ will win the Super Bowl this year","type":"cloze"}|{"front":"Is coding hard?","back":"Yes","type":"basic"}|{"front":"Is JavaScript awesome?","back":"Yes","type":"basic"}|
